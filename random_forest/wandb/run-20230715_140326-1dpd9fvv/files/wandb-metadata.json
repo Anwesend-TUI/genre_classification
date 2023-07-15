@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-07-15T12:03:27.767371",
+    "startedAt": "2023-07-15T12:03:26.893673",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/mnt/a/Udacity/MLDevOpsND/repo_exercises/genre_classification/outputs/2023-07-15/13-27-21/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/Anwesend-TUI/genre_classification.git",
+        "commit": "92f4525a3f0e460dc5a1dd5035fb5199842cb01a"
+    },
+    "email": null,
+    "root": "/mnt/a/Udacity/MLDevOpsND/repo_exercises/genre_classification",
+    "host": "ProdigyPoison",
+    "username": "root",
+    "executable": "/root/miniconda3/envs/mlflow-d34f1d1b471376e01456b29ec1b00d1a804cbe3b/bin/python"
+}

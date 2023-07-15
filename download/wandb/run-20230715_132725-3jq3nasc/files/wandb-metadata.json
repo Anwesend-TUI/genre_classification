@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-07-15T11:27:32.482350",
+    "startedAt": "2023-07-15T11:27:25.013944",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/Anwesend-TUI/genre_classification.git",
+        "commit": "92f4525a3f0e460dc5a1dd5035fb5199842cb01a"
+    },
+    "email": null,
+    "root": "/mnt/a/Udacity/MLDevOpsND/repo_exercises/genre_classification",
+    "host": "ProdigyPoison",
+    "username": "root",
+    "executable": "/root/miniconda3/envs/mlflow-fea64133bb6310288d0bbcd03525c2828ffdcf0c/bin/python"
+}
